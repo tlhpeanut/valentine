@@ -2,9 +2,12 @@
     --primary: #d32f2f;
     /* Deep Red */
     --primary-light: #ffcdd2;
-    --envelope-bg: #e57373;
+    --envelope-bg: #ffe4e1;
+    /* Misty Rose (White/Pink mix) */
     /* Softer red/pink */
-    --envelope-inner: #ef5350;
+    --envelope-inner: #ffb7c5;
+    /* Pastel Pink */
+    /* Slightly darker pastel */
     --paper: #fffaf0;
     /* Warm white */
     --text: #880e4f;
@@ -191,10 +194,10 @@ body {
 
 .letter {
     position: absolute;
-    background: #fffafa;
+    background: #fadadd;
     /* Snow white */
     /* Lavender Blush (light pinkish white) */
-    background-image: repeating-linear-gradient(to bottom, #fffafa, #fffafa 20px, #ffe4e1 21px);
+    background-image: repeating-linear-gradient(to bottom, #fadadd, #fadadd 20px, #f4c2c2 21px);
     /* Misty Rose lines */
     /* Lined paper effect in pink */
     width: 90%;

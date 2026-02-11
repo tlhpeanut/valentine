@@ -1,6 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
     const envelope = document.querySelector('.envelope-wrapper');
-    const openBtn = document.getElementById('open');
     const page1 = document.getElementById('page1');
     const page2 = document.getElementById('page2');
     const bgEffects = document.getElementById('background-effects');
@@ -15,12 +14,11 @@ document.addEventListener('DOMContentLoaded', () => {
         setTimeout(() => {
             page1.classList.add('hidden');
             page2.classList.remove('hidden');
-        }, 10000); // 10 seconds delay for user to read the letter
+        }, 5000); // 5 seconds delay for user to read the letter
     };
 
     // Event Listeners
     envelope.addEventListener('click', openCard);
-    openBtn.addEventListener('click', openCard);
 
     // Falling Hearts Effect
     const createHeart = () => {
