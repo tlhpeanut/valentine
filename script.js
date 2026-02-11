@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
         setTimeout(() => {
             page1.classList.add('hidden');
             page2.classList.remove('hidden');
-        }, 3000); // 3 seconds delay for user to read the short letter popup if they want
+        }, 10000); // 10 seconds delay for user to read the letter
     };
 
     // Event Listeners

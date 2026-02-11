@@ -226,8 +226,10 @@ body {
 .text-content strong {
     font-size: 1.8rem;
     display: block;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
+    /* Increased margin to prevent overlap */
     color: var(--primary);
+    line-height: 1.2;
 }
 
 .text-content p {
